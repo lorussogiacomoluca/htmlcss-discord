@@ -27,6 +27,11 @@ footer{
     display: flex; 
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .d-flex{
     display: flex;
 }
@@ -250,6 +255,7 @@ footer{
 
 .btn-footer{
     border-radius: 20px;
+    padding: 10px;
 }
 
 .btn-white{
