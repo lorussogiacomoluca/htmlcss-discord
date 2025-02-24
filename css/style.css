@@ -167,6 +167,9 @@ footer{
 .p-8{
     padding: 8px;
 }
+.p-18{
+    padding: 18px;
+}
 
 .m-50{
     margin: 50px auto;
@@ -211,15 +214,25 @@ footer{
     font-size: 20px;
 }
 
+.font-weight-800{
+    font-weight: 800;
+}
+
+.font-weight-600{
+    font-weight: 600;
+}
+
+.line-h-big{
+    line-height: 1.8;
+}
+
 .section-title{
     font-size: 50px;
-    font-weight: 800;
     padding: 20px;
 }
 
 .section-description{
     padding: 25px;
-    line-height: 1.8;
 }
 
 /* Section Jumbo */
