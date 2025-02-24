@@ -91,7 +91,7 @@ footer{
 }
 
 .bg-grey{
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 }
 
 .bg-green{
@@ -104,7 +104,7 @@ footer{
 
 
 .full-col{
-    width: 100%;
+    width: 90%;
 }
 
 .col-20{
@@ -167,12 +167,21 @@ footer{
 .p-8{
     padding: 8px;
 }
+
 .p-18{
     padding: 18px;
 }
 
+.px-18{
+    padding: 0 18px;
+}
+
 .m-50{
     margin: 50px auto;
+}
+
+.m-0{
+    margin: 0px;
 }
 
 .m-250{
@@ -189,6 +198,10 @@ footer{
 
 .mx-10{
     margin: 0 10px;
+}
+
+.mx-100{
+    margin: 0 100px;
 }
 
 .text-white{
@@ -243,3 +256,6 @@ footer{
     background-repeat: no-repeat;
 }
 
+.one-col-img{
+    width: 100%;
+}
