@@ -22,7 +22,7 @@ footer{
 }
 
 .container-sm{
-    max-width: 1080px;
+    max-width: 870px;
     margin: 0 auto;
     display: flex; 
 }
@@ -59,7 +59,7 @@ footer{
 }
 
 .bg-blue{
-    background-color: #00018B;
+    background-color: #255EE9;
 }
 
 .bg-blue1{
@@ -127,6 +127,10 @@ footer{
     border: 3px dashed white;
 }
 
+.bored{
+    border: 1px solid red;
+}
+
 .text-center{
     text-align: center;
 }
@@ -150,6 +154,10 @@ footer{
 
 .py-50{
     padding: 50px 0;
+}
+
+.py-100{
+    padding: 100px 0;
 }
 
 .py-20{
@@ -176,6 +184,10 @@ footer{
     margin: 30px 0;
 }
 
+.mx-10{
+    margin: 0 10px;
+}
+
 .text-white{
     color: white;
 }
@@ -186,6 +198,32 @@ footer{
 }
 
 .btn-white{
-    background: white;
-    color: black;
+    background: #fff;
+    color: #000;
+}
+
+.btn-black{
+    background: #000;
+    color: #fff;
+}
+
+.font-size-20{
+    font-size: 20px;
+}
+
+/* Section Jumbo */
+.jumbo{
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jumbo-title{
+    font-size: 50px;
+    padding: 20px;
+}
+
+.jumbo-description{
+    padding: 25px;
 }
