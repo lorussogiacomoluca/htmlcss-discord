@@ -211,6 +211,16 @@ footer{
     font-size: 20px;
 }
 
+.section-title{
+    font-size: 50px;
+    font-weight: 800;
+    padding: 20px;
+}
+
+.section-description{
+    padding: 25px;
+}
+
 /* Section Jumbo */
 .jumbo{
     background-image: url('../img/jumbo.png');
@@ -219,12 +229,3 @@ footer{
     background-repeat: no-repeat;
 }
 
-.jumbo-title{
-    font-size: 50px;
-    font-weight: 800;
-    padding: 20px;
-}
-
-.jumbo-description{
-    padding: 25px;
-}
