@@ -31,6 +31,10 @@ footer{
     display: flex;
 }
 
+.column-direction{
+    flex-direction: column
+}
+
 .space-between{
     justify-content: space-between;
 }
@@ -223,6 +227,11 @@ footer{
     color: #fff;
 }
 
+.btn-blue{
+    background-color: #7289DA;
+    color: #fff;
+}
+
 .font-size-20{
     font-size: 20px;
 }
@@ -259,3 +268,16 @@ footer{
 .one-col-img{
     width: 100%;
 }
+
+.pre-footer{
+    background-image: url('../img/stars.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Footer */
+.footer-title{
+    
+}
+
