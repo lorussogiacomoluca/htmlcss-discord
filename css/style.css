@@ -134,6 +134,10 @@ a{
 }
 
 
+.col-10{
+    width: 10%;
+}
+
 .col-20{
     width: 20%;
 }
@@ -150,6 +154,11 @@ a{
     width: 60%; 
 }
 
+.col-75{
+    width: 75%; 
+}
+
+
 .dashed{
     border: 3px dashed black;
 }
@@ -163,7 +172,7 @@ a{
 }
 
 .mt-blue{
-    border-top: 3px solid #7289DA;
+    border-top: 3px solid #5865F2;
 }
 
 .text-center{
@@ -247,6 +256,11 @@ a{
     color: white;
 }
 
+.text-discord{
+    color: #5865F2;
+    font-size: 25px;
+}
+
 .btn{
     border-radius: 20px;
     padding: 10px 20px;
@@ -269,7 +283,7 @@ a{
 }
 
 .btn-blue{
-    background-color: #7289DA;
+    background-color: #5865F2;
     color: #fff;
 }
 
@@ -320,7 +334,7 @@ a{
 /* Footer */
 .footer-title{
     font-size: 45px;
-    color: #7289DA;
+    color: #5865F2;
     font-weight: 600;
 }
 
@@ -340,7 +354,7 @@ a{
 }
 
 .menu-column li:first-child{
-    color: #7289DA;
+    color: #5865F2;
 }
 
 .menu-column li{
@@ -362,7 +376,7 @@ a{
 }
 
 .col-20 ul li:hover{
-    color: #7289DA;
+    color: #5865F2;
 }
 
 .menu-column li:first-child:hover{
@@ -370,20 +384,93 @@ a{
 }
 
 .icons i:hover{
-    color: #7289DA;
+    color: #5865F2;
 }
 
 .btn-white:hover{
     background: #000;
-    color: #7289DA
+    color: #5865F2
 }
 
 .btn-black:hover{
     background: #fff;
-    color: #7289DA;
+    color: #5865F2;
 }
 
 .btn-blue:hover{
     background-color: #000;
-    color: #7289DA;
+    color: #5865F2;
+}
+
+a.active{
+    color: gold
+}
+
+.img-jumbo2{
+
+}
+
+.jumbo2 img {
+    width: 80%;
+}
+
+.bg-dark{
+    background-color: #23272A;
+}
+
+.article-title{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.profile-pic img{
+    width: 80%;
+}
+
+.article-text{
+    line-height: 1.5;
+    font-size: 25px;
+    font-weight: 200;
+
+}
+
+.article-heading{
+    padding: 20px;
+}
+
+.article-highlight {
+    font-size: 24px;
+    font-weight: 700;
+    color: #5865F2;
+}
+
+.special-paragraph {
+    padding-left: 20px;
+    margin: 18px 0;
+  }
+  
+  .special-paragraph::before {
+    content: "—";
+    color: #5865f2;
+  }
+
+  .article-text img{
+    width: 30%;
+  }
+
+.sidebar ul{
+    list-style: none;
+}
+
+.sidebar ul li{
+    margin-top: 10px;
+}
+
+.sidebar ul li:hover{
+    color: #5865f2;
+    text-decoration: underline;
+}
+
+.border-right{
+    border-right: 2px solid #5865f2; 
 }
