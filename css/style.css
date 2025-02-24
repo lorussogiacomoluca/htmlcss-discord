@@ -63,6 +63,7 @@ footer{
 .header-content ul li{
     display: inline-block;
     margin: 0 10px;
+    transition: all 0.5s ease-out;
 }
 
 /* Utility */
@@ -244,6 +245,7 @@ footer{
 .btn{
     border-radius: 20px;
     padding: 10px 20px;
+    transition: all 0.5s ease-out;
 }
 
 .btn-footer{
@@ -332,5 +334,50 @@ footer{
 }
 
 .menu-column li:first-child{
+    color: #7289DA;
+}
+
+.menu-column li{
+    transition: all 0.5s ease-out;
+}
+
+.icons i{
+    transition: all 0.5s ease-out;
+}
+
+/* Hover -- BONUS */
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.header-content ul li:hover{
+    color: #000;
+}
+
+.col-20 ul li:hover{
+    color: #7289DA;
+}
+
+.menu-column li:first-child:hover{
+    color: #fff;
+}
+
+.icons i:hover{
+    color: #7289DA;
+}
+
+.btn-white:hover{
+    background: #000;
+    color: #7289DA
+}
+
+.btn-black:hover{
+    background: #fff;
+    color: #7289DA;
+}
+
+.btn-blue:hover{
+    background-color: #000;
     color: #7289DA;
 }
